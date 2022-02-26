@@ -8,4 +8,5 @@ Just paste the below code in your termux and Done!. Everything will be automatic
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ElissonRodrigues/Termux-chdman/main/install.sh)"```
 
 ## Getting started:
-Creating chd file of an ISO file:<br> ```chdman createcd -i image.iso -o image.chd```
+Chdman was installed on an Ubuntu distribution, so you will need to start Ubuntu before using the chdman command. To start ubuntu use this command: ```proot-distro login ubuntu```
+<br><Br>Creating chd file of an ISO file:<br> ```chdman createcd -i image.iso -o image.chd```
