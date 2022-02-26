@@ -8,4 +8,4 @@ Just paste the below code in your termux and Done!. Everything will be automatic
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ElissonRodrigues/Termux-chdman/main/install.sh)"```
 
 ## Getting started:
-Creating chd file from an ISO file: ```chdman createcd -i image.iso -o image.chd```
+Creating chd file of an ISO file:<br> ```chdman createcd -i image.iso -o image.chd```
