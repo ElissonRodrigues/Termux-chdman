@@ -14,6 +14,7 @@ then echo;
 else echo;
      echo "$nome Is not installed"
      apt install $nome
+fi
 
 proot-distro install ubuntu 
 proot-distro login ubuntu -- apt update && apt full-upgrade && apt install mame-tools
