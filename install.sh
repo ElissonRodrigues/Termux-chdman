@@ -17,4 +17,5 @@ else echo
 fi
 
 proot-distro install ubuntu 
-proot-distro login ubuntu -- apt update && apt full-upgrade && apt install mame-tools
+proot-distro login ubuntu -- apt update && apt full-upgrade
+proot-distro login ubuntu -- apt install mame-tools
