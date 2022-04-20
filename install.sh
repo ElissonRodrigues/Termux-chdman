@@ -6,8 +6,5 @@ cd
 apt update
 apt install proot-distro
 proot-distro install ubuntu
-proot-distro login ubuntu 
 
-apt update 
-!apt install --no-install-recommends mame-tools
-!chdman 
+proot-distro login ubuntu -- apt update && apt full-upgrade && apt install mame-tools
