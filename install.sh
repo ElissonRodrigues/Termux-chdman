@@ -9,9 +9,9 @@ apt update
 pacote=$(dpkg --get-selections | grep $nome )
 
 if [ -n "$pacote" ] ;  
-then echo;
+then echo
      echo "$nome is already installed"; 
-else echo;
+else echo
      echo "$nome Is not installed"
      apt install $nome
 fi
