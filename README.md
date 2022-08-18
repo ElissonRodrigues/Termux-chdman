@@ -5,7 +5,9 @@
 ## Installation:
 
 Just paste the below code in your termux and Done!. Everything will be automatically installed. <br>
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ElissonRodrigues/Termux-chdman/main/install.sh)"```
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ElissonRodrigues/Termux-chdman/main/install.sh)"
+```
 
 ## Getting started:
 Chdman was installed on an Ubuntu distribution, so you will need to start Ubuntu before using the chdman command. To start ubuntu use this command: ```proot-distro login ubuntu```
